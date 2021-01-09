@@ -1,0 +1,346 @@
+@import url('https://fonts.googleapis.com/css2?family=Catamaran:wght@800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Catamaran:wght@800&family=Yantramanav&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    padding: 0;
+    margin: 0;
+   
+}
+
+.backg{
+    background-image:url('../portfilo/images/2.jpg');
+    height: 50vh;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    background-size: cover;
+    background-position: center;
+    filter: grayscale(100%);
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    display: flex;
+    border-bottom-right-radius: 50% 70%;
+
+}
+.container-fluid{
+    margin: 0%;
+    padding: 0%;
+    width: 100%;
+    overflow: hidden;
+   background: linear-gradient(120deg,rgb(231, 229, 229) ,rgb(92, 91, 91));
+}
+.webdev{
+   color: white;
+   text-transform: capitalize;
+   font-family: 'Catamaran', sans-serif;
+   font-size: 7rem;
+}
+
+.graye{
+    width: 250px;
+    height: 250px;
+    border-radius: 50%;
+    filter: grayscale(20%);
+    transition: all .5s ease-in-out;
+ position: relative;
+
+}
+
+.about{
+    font-family: 'Yantramanav', sans-serif;
+    border-left: 9px double rgb(88, 88, 88);
+   
+}
+.aboutheading{
+    color: rgb(66, 65, 65);
+    font-size: 2.8rem;
+    font-weight: 600;
+}
+.aboutwork{
+    color: rgb(34, 31, 31);
+    font-size: 1.3rem;
+}
+.aboutwork i{
+    font-size: 1rem;
+    padding-right: 5px;
+}
+.anih1{
+font-size: 1.5rem;
+border-bottom: 2px solid black;
+}
+.ani2{
+    position: relative;
+    margin-left: 5px;
+    font-size: 2.1rem;
+    font-weight: 600;
+    color: crimson;
+    letter-spacing: 0.2rem;
+}
+.ani2::before{
+    content: '';
+    position: absolute;
+    width: 1px;
+    height: 30px;
+    right: -4px;
+    border-right: 2.5px rgb(0, 0, 0) solid;
+    animation: blink 1s infinite;
+}
+.second{
+    background:url(../portfilo/images/2.jpg);
+   filter: grayscale(1);
+    object-fit: scale-down;
+    object-position: top;
+    border-top-left-radius: 60% 80%;
+}
+.secondh1{
+    color: white;
+    font-family: sans-serif;
+}
+.clickbtn{
+    width: 20px;
+    font-size: 2rem;
+    border:none;
+    outline: none;
+    background-color: transparent;
+    color: rgb(255, 255, 255);
+}
+.clickbtn:focus{
+    outline: none;
+}
+.show{
+    display: none;
+    transition: 2s ease-in-out;
+}
+.show li{
+    color: white;
+    list-style-type: circle;
+    font-size: 1.2rem;
+    letter-spacing: 0.2rem;
+}
+.projects{
+   background:linear-gradient(rgba(0, 0, 0, 0.466),rgba(0, 0, 0, 0.466)) ,url('../portfilo/images/2.jpg');
+   background-position: center;
+   background-size: cover;
+  
+}
+.projectsorder{
+    padding:50px;
+    padding-left: 80px;
+    width: 450px;
+    backdrop-filter: blur(4px);
+    
+}
+.text{
+    position: absolute;
+    bottom: 0px;
+    opacity: 0;
+    pointer-events: none;
+    text-align: center;
+    align-items: center;
+    transform: translateY(90px);
+    justify-content: center;
+}
+.main:hover .text{
+    transition: .5s ease;
+    opacity: 1;
+    transform: translateX(0px);
+}
+.main:hover .faa{
+    transition: .5s ease;
+    opacity: 1;
+}
+.project1:hover,.project2:hover,.project3:hover,.project4:hover,.project5:hover,.project6:hover,.project7:hover,.project8:hover,.project9:hover{
+    transform: scale(1.05);
+    transition: ease-in-out .5s ;
+}
+.text h1,.text p{
+    color: white;
+}
+.text h1{
+    font-size: 2rem;
+    text-transform: capitalize;
+    text-decoration: overline 3px white;
+    border-bottom: 2px solid white;
+}
+.text p{
+    font-size: 1rem;
+    text-transform: capitalize;
+    text-decoration: underline px white;
+}
+.base{
+    font-size: 1.5rem;
+    text-transform: capitalize;
+    font-weight:700;
+  margin-top: 30px;
+    color: rgba(243, 233, 233, 0.89);
+    font-family: Arial, Helvetica, sans-serif;
+    border: 2px white dashed;
+}
+.project1{
+    background: url('../portfilo/images/Screenshot\ \(16\).png');
+    position: relative;
+    width: 350px;
+    filter: drop-shadow(10px 9px 10px rgb(0, 0, 0));
+    height: 250px;
+    background-position: -20px center;
+    background-size: cover;
+    object-fit: fill;
+    object-position: center;
+    background-repeat: no-repeat;
+    border-radius: 10px;
+    overflow: hidden;
+}
+.project2{
+    background: url('../portfilo/images/Screenshot\ \(17\).png');
+    position: relative;
+    width: 350px;
+    filter: drop-shadow(10px 9px 10px rgb(0, 0, 0));
+    height: 250px; border-radius: 10px;
+    background-position: -20px center;
+    background-size: cover;
+    object-fit: fill;
+    object-position: center;
+    background-repeat: no-repeat;
+}
+.project3{
+    background: url(../portfilo/images/Screenshot\ \(18\).png);
+    position: relative; border-radius: 10px;
+    width: 350px;
+    filter: drop-shadow(10px 9px 10px rgb(0, 0, 0));
+    height: 250px;
+    background-position: -20px center;
+    background-size: cover;
+    object-fit: fill;
+    object-position: center;
+    background-repeat: no-repeat;
+}
+.project4{
+    background: url('../portfilo/images/Screenshot\ \(19\).png');
+    position: relative;
+    width: 350px;
+    filter: drop-shadow(10px 9px 10px rgb(0, 0, 0));
+    height: 250px; border-radius: 10px;
+    background-position: -20px center;
+    background-size: cover;
+    object-fit: fill;
+    object-position: center;
+    background-repeat: no-repeat;
+}
+.project5{
+    background: url('../portfilo/images/Screenshot\ \(20\).png');
+    position: relative;
+    width: 350px;
+    filter: drop-shadow(10px 9px 10px rgb(0, 0, 0));
+    height: 250px; border-radius: 10px;
+    background-position: -20px center;
+    background-size: cover;
+    object-fit: fill;
+    object-position: center;
+    background-repeat: no-repeat;
+}
+.project6{
+    background: url('../portfilo/images/Screenshot\ \(21\).png');
+    position: relative;
+    width: 350px;
+    filter: drop-shadow(10px 9px 10px rgb(0, 0, 0));
+    height: 250px; border-radius: 10px;
+    background-position: -20px center;
+    background-size: cover;
+    object-fit: fill; border-radius: 10px;
+    object-position: center;
+    background-repeat: no-repeat;
+}
+.project7{
+    background: url('../portfilo/images/Screenshot\ \(22\).png');
+    position: relative;
+    width: 350px;
+    filter: drop-shadow(10px 9px 10px rgb(0, 0, 0));
+    height: 250px; border-radius: 10px;
+    background-position: -20px center;
+    background-size: cover;
+    object-fit: fill;
+    object-position: center;
+    background-repeat: no-repeat;
+}
+.project8{
+    background: url('../portfilo/images/Screenshot\ \(23\).png');
+    position: relative;
+    width: 350px;
+    filter: drop-shadow(10px 9px 10px rgb(0, 0, 0));
+    height: 250px; border-radius: 10px;
+    background-position: -20px center;
+    background-size: cover;
+    object-fit: fill;
+    object-position: center;
+    background-repeat: no-repeat;
+}
+.project9{
+    background: url('../portfilo/images/Screenshot\ \(24\).png');
+    position: relative;
+    width: 350px;
+    filter: drop-shadow(10px 9px 10px rgb(0, 0, 0));
+    height: 250px; border-radius: 10px;
+    background-position: -20px center;
+    background-size: cover;
+    object-fit: fill;
+    object-position: center;
+    background-repeat: no-repeat;
+}
+.faa{
+   background-color: rgba(31, 32, 32, 0.856);
+    width: 100%;
+    height: 100%;
+    transition: .3s ease;
+    pointer-events: none;
+    opacity: 0;
+}
+.ico{
+    width: 40px;
+    height: 270px;
+    background:linear-gradient(rgb(26, 25, 25),rgb(134, 132, 132),rgb(26, 25, 25));
+    position: fixed;
+    top: 350px;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    border-radius: px;
+    
+}
+.ico a{
+    color: white;
+    padding: 10px;
+    font-size: 1.4rem;
+
+}
+.ico a:hover{
+    color: white;
+    transform: scale(1.1);
+}
+::-webkit-scrollbar{
+    width: 10px;
+  
+}
+::-webkit-scrollbar-track{
+  
+}
+::-webkit-scrollbar-thumb{
+    background-color:gray;
+    border: 1px black solid;
+}
+@keyframes blink{
+    0%{
+        opacity: 0;
+    }
+    50%{
+        opacity: 1;
+    }
+    100%{
+        opacity: 0;
+    }
+}
+
