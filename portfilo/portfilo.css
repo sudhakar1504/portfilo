@@ -469,7 +469,7 @@ border-bottom: 2px solid black;
         margin-left:10px;
     }
     .projects{
-        background:linear-gradient(rgba(0, 0, 0, 0.466),rgba(0, 0, 0, 0.466)) ,url('../portfilo/images/2.jpg');
+           background: linear-gradient(rgb(65 64 64 / 68%),rgb(0 0 0 / 68%)) ,url(../portfilo/images/2.jpg);
         background-position: center;
         background-size: contain;
        
