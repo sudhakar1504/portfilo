@@ -572,7 +572,7 @@ border-bottom: 2px solid black;
          transform: scale(1.1);
      }
 }
-@media only screen and (max-device-width:650px) and (min-device-width:320px){
+@media only screen and (max-device-width:650px) and (min-device-width:325px){
 
     .backg{
         background-image:url('../portfilo/images/2.jpg');
