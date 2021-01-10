@@ -475,8 +475,7 @@ border-bottom: 2px solid black;
        
      }
      .projectsorder{
-         margin:10px;
-        padding-left:-50px;
+              
          width: 400px;
          backdrop-filter: blur(4px);
          
